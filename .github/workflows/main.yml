@@ -21,4 +21,7 @@ jobs:
       - name: 'printing text files'
         run: ls
 
-      
+      - uses: actions/checkout@v3
+
+      - name: 'printing text '
+        run: ls  

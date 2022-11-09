@@ -18,10 +18,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'printing text files'
-        run: ls
-
       - uses: actions/checkout@v3
-
-      - name: 'printing text '
-        run: ls  
+      
+      - name: "login to docker hub" 
+        run: docker login --username ${{ secrets.DOCKER_USERNAME}} --password ${{ secrets.DOCKER_TOKEN }}

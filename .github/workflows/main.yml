@@ -19,6 +19,6 @@ jobs:
 
     steps:
       - name: 'printing text files'
-        run: pwd
+        run: ls
 
       

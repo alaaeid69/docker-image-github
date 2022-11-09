@@ -18,8 +18,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'testing github'
+      - name: 'printing text files'
         run: pwd
 
-      - name: 'testing alaa'
-        run: echo alaa
+      
